@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Mental Health Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+</head>
+<body>
+  <h1>Understanding and Supporting Student Mental Health</h1>
+  <div id="dashboard">
+    <div class="chart-container" id="donutSection">
+      <h2>Breakdown by Mental Health Condition</h2>
+      <div id="donutChart"></div>
+    </div>
+
+    <div class="chart-container" id="barSection">
+      <h2>Mental Health by Course Category</h2>
+      <div id="barChart"></div>
+    </div>
+
+    <div class="chart-container" id="sankeySection">
+      <h2>Conditions and Treatment Seeking (Sankey)</h2>
+      <div id="sankeyChart"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
