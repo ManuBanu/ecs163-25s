@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.chart-section {
+  margin-bottom: 50px;
+}
+svg {
+  display: block;
+  margin: 0 auto;
+}
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-size: 12px;
+}
+.slice:hover, .cell:hover, .line:hover, rect:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 10;
+}
